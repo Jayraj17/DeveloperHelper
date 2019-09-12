@@ -102,6 +102,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DataBaseScript\Script_12_09_2019.sql" />
     <Content Include="Database\DH.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>DH.Context.cs</LastGenOutput>
