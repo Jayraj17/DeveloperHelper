@@ -55,10 +55,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contracts\IDatabaseFactory.cs" />
-    <Compile Include="Contracts\IDepartmentRepository.cs" />
-    <Compile Include="Contracts\IEducationRepository.cs" />
-    <Compile Include="Contracts\IEmployeeRepository.cs" />
+    <Compile Include="IRepository\IDatabaseFactory.cs" />
+    <Compile Include="IRepository\IDepartmentRepository.cs" />
+    <Compile Include="IRepository\IEducationRepository.cs" />
+    <Compile Include="IRepository\IEmployeeRepository.cs" />
     <Compile Include="Database\DH.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

@@ -40,12 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contract\IDepartmentManager.cs" />
-    <Compile Include="Contract\IEducationManager.cs" />
-    <Compile Include="Contract\IEmployeeManager.cs" />
-    <Compile Include="Manager\DepartmentManager.cs" />
-    <Compile Include="Manager\EducationManager.cs" />
-    <Compile Include="Manager\EmployeeManager.cs" />
+    <Compile Include="IService\IDepartmentManager.cs" />
+    <Compile Include="IService\IEducationManager.cs" />
+    <Compile Include="IService\IEmployeeManager.cs" />
+    <Compile Include="Service\DepartmentManager.cs" />
+    <Compile Include="Service\EducationManager.cs" />
+    <Compile Include="Service\EmployeeManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
